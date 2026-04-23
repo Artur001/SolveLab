@@ -1,63 +1,75 @@
-# 🧪 SolveLab - Advanced Mathematical Workspace
+# SolveLab
 
-![Next.js](https://img.shields.io/badge/Next.js-15-black?style=for-the-badge&logo=next.js)
-![React](https://img.shields.io/badge/React-19-blue?style=for-the-badge&logo=react)
-![Tailwind](https://img.shields.io/badge/Tailwind-CSS-38B2AC?style=for-the-badge&logo=tailwind-css)
-![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript)
+SolveLab is a web-based math workspace built for students.  
+It combines a scientific calculator, graphing tools, equation solving, statistics, finance tools, and a formula reference in one place.
 
-SolveLab is a premium, handcrafted mathematical workspace designed for students, researchers, and professionals. It combines a powerful scientific calculator with a real-time LaTeX editor, function plotting capabilities, and a comprehensive multilingual formula registry.
+## Features
 
-## ✨ Key Features
+- Scientific calculator
+- Live math editor
+- Function graphing
+- Linear and quadratic equation solving
+- Statistics tools
+- Finance tools
+- Differential calculus tools
+- Probability and combinatorics tools
+- Built-in cheatsheet / formula reference
 
-- **🚀 Scientific Calculator**: Fast, intuitive, and handles complex expressions with live preview.
-- **📝 Live LaTeX Editor**: Type mathematical expressions and see them rendered instantly in high-quality LaTeX.
-- **📊 Function Plotting**: Visualize linear, quadratic, and exponential functions directly in your browser.
-- **📚 Formula Registry**: A deep library of mathematical concepts from algebra to calculus.
-- **🌍 100% Internationalized**: Full support for **German, English, Spanish, French, and Italian** across all modules.
-- **💎 Premium Design**: Sleek dark mode, glassmorphism, and smooth micro-animations for an elite user experience.
+## Screenshots
 
-## 🛠️ Tech Stack
+### Rechner
+![Rechner](public/screenshots/rechner.png)
 
-- **Framework**: Next.js 15 (App Router)
-- **Library**: React 19 (RC)
-- **Styling**: Tailwind CSS
-- **Icons**: Lucide React
-- **Math Engine**: Math.js & KaTeX
-- **Localization**: Custom Context-based i18n System
+### Graphen
+![Graphen](public/screenshots/graphen.png)
 
-## 🚀 Getting Started
+### Gleichungen
+![Gleichungen](public/screenshots/gleichungen.png)
 
-### Prerequisites
+### Statistik
+![Statistik](public/screenshots/statistik.png)
 
-- Node.js 18.x or later
-- npm or yarn
+## Tech Stack
 
-### Installation
+- Next.js
+- React
+- TypeScript
+- Tailwind CSS
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/YOUR_USERNAME/solvelab-math-workspace.git
-   ```
+## Installation
 
-2. Install dependencies:
-   ```bash
-   npm install --legacy-peer-deps
-   ```
+Clone the repository:
 
-3. Run the development server:
-   ```bash
-   npm run dev
-   ```
+    git clone https://github.com/Artur001/SolveLab.git
+    cd SolveLab
 
-4. Open [http://localhost:3000](http://localhost:3000) with your browser.
+Install dependencies:
 
-## 📁 Project Structure
+    npm install --legacy-peer-deps
 
-- `src/app`: Next.js pages and layouts.
-- `src/components`: Reusable UI components (Calculator, MathDisplay, etc.).
-- `src/data`: Central formula registry and localized datasets.
-- `src/lib`: i18n logic, math validation, and utilities.
+Start the development server:
 
-## 📄 License
+    npm run dev
 
-This project is open-source and available under the [MIT License](LICENSE).
+Then open:
+
+    http://localhost:3000
+
+## Project Structure
+
+    src/
+      app/         pages and routes
+      components/  reusable UI components
+      data/        formulas and datasets
+      lib/         helpers and logic
+
+    public/
+      screenshots/ project screenshots
+
+## Live Demo
+
+Add your Vercel link here after deployment.
+
+## License
+
+MIT
